@@ -72,7 +72,7 @@ div[class*="children"]:after {
 
 /* force the custom theme on the dark theme since it's available for everyone */
 .theme-dark {
-    --custom-theme-background: --custom-theme-background: linear-gradient(64.92deg, var(--bg-gradient-crimson-moon-1) 16.17%, var(--bg-gradient-crimson-moon-2) 72%);
+    --custom-theme-background: linear-gradient(64.92deg, var(--bg-gradient-crimson-moon-1) 16.17%, var(--bg-gradient-crimson-moon-2) 72%);
     --bg-overlay-color:0 0 0;
     --bg-overlay-color-inverse:255 255 255;
     --bg-overlay-opacity-1:0.85;
