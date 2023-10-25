@@ -1,0 +1,6 @@
+/* removes all avatar decorations */
+
+img[class*="avatarDecoration"],
+svg[class*="avatarDecoration"] {
+    display: none;
+}

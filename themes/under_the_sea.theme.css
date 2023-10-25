@@ -1,0 +1,13 @@
+/*
+------------------------------
+Under The Sea Theme
+
+Version: 1.0
+Published: 10/25/23
+Updated: n/a
+------------------------------
+*/
+
+.theme-dark {
+	--custom-theme-background: linear-gradient(179.14deg, var(--bg-gradient-under-the-sea-1) 1.91%, var(--bg-gradient-under-the-sea-2) 48.99%, var(--bg-gradient-under-the-sea-3) 96.35%);
+}

@@ -1,0 +1,13 @@
+/*
+------------------------------
+Strawberry Lemonade Theme
+
+Version: 1.0
+Published: 10/25/23
+Updated: n/a
+------------------------------
+*/
+
+.theme-dark {
+    --custom-theme-background: linear-gradient(161.03deg, var(--bg-gradient-strawberry-lemonade-1) 18.79%, var(--bg-gradient-strawberry-lemonade-2) 49.76%, var(--bg-gradient-strawberry-lemonade-3) 80.72%);
+}

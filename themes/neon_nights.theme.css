@@ -1,0 +1,13 @@
+/*
+------------------------------
+Neon Nights Theme
+
+Version: 1.0
+Published: 10/25/23
+Updated: n/a
+------------------------------
+*/
+
+.theme-dark {
+	--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-neon-nights-1) 0%, var(--bg-gradient-neon-nights-2) 50%, var(--bg-gradient-neon-nights-3) 100%);
+}
