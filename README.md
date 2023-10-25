@@ -1,2 +1,3 @@
-# nitro-themes
-force the nitro themes even if you don't have nitro
+# Nitro Themes
+
+Use a discord mod such as Vencord or BetterDiscord to apply these themes.

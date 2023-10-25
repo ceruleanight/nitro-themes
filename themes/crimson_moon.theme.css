@@ -1,0 +1,13 @@
+/*
+------------------------------
+Crimson Moon Theme
+
+Version: 1.0
+Published: 10/25/23
+Updated: n/a
+------------------------------
+*/
+
+.theme-dark {
+	--custom-theme-background: linear-gradient(64.92deg, var(--bg-gradient-crimson-moon-1) 16.17%, var(--bg-gradient-crimson-moon-2) 72%);
+}

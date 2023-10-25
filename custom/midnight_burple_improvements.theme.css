@@ -1,0 +1,85 @@
+/* my custom addons that covers things discord was too lazy to theme */
+
+article {
+	background: #00000038 !important;
+}
+
+code {
+	background: #0a091b !important;
+}
+
+code[class="inline"] {
+	background: #342a61 !important;
+}
+
+div[class*="itemCard"],
+div[class*="emptyCard"] {
+	background: #1f1b4765;
+}
+
+div[class*="itemCard"]:hover {
+	background: #080718 !important;
+}
+
+div[aria-roledescription="Open Thread Button"] {
+	background: #1c133b;
+}
+
+div[class*="reaction_"] {
+	background: #35305aa1 !important;
+}
+
+div[class*="jumpToPresentBar"] {
+	background: #292375;
+}
+
+div[class*="newMessagesBar"] {
+	background: #4e45cc;
+}
+
+div[class*="actionBar"] div[class*="button"],
+div[class*="buttons"] div[class*="wrapper"],
+div[class*="hoverButtonGroup"],
+div[class*="actionButton"],
+div[class*="topPill"] div[class*="selected"] {
+	background: #322b79 !important;
+}
+
+div[class*="attachment"] {
+	background: #211d5254 !important;
+}
+
+div[id*="message-accessories"] div[class*="wrapper"] {
+	background: #322b7960;
+}
+
+li[class*="upload"] {
+	background: #00000052;
+}
+
+section[class*="section"] {
+	background: #1c1a35;
+}
+
+div[class*="emptyChannelIcon"] {
+	background-color: #28245c;
+}
+
+div[class*="wrapper"]:has(button) {
+	background-color: #18153d;
+}
+
+div[class*="buttonContainer"] button[class*="lookFilled"],
+button[class*="followButton"] {
+	background-color: #3e3975 !important;
+}
+
+/* hides gift button (in reply box), nitro button, store button, birthday tab (when present), and something else I don't remember */
+
+button:has(path[d*="M16.886 7.999H20C21.104 7.999"]),
+li[class*="channel"]:has(a[href="/shop"]),
+li[class*="channel"]:has(a[href="/store"]),
+li[class*="channel"]:has(svg[class*="activitiesBirthdayIcon"]),
+li[class*="channel"]:has(path[d*="M2.98966977,9.35789159 C2.98966977,9.77582472"]) {
+	display: none;
+}
