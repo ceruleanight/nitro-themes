@@ -73,10 +73,6 @@ div[class*="children"]:after {
 
 /* force the custom theme on the dark theme since it's available for everyone */
 .theme-dark {
-    --bg-gradient-midnight-blurple-1:hsl(var(--bg-gradient-midnight-blurple-1-hsl) / 1);
-    --bg-gradient-midnight-blurple-1-hsl:245 calc(var(--saturation-factor, 1) * 55.1%) 53.7%;
-    --bg-gradient-midnight-blurple-2:hsl(var(--bg-gradient-midnight-blurple-2-hsl) / 1);
-    --bg-gradient-midnight-blurple-2-hsl:259 calc(var(--saturation-factor, 1) * 74.5%) 10.8%;
     --custom-theme-background: linear-gradient(48.17deg, var(--bg-gradient-midnight-blurple-1) 11.21%, var(--bg-gradient-midnight-blurple-2) 61.92%);
     --bg-overlay-color:0 0 0;
     --bg-overlay-color-inverse:255 255 255;
@@ -164,7 +160,8 @@ div[class*="newMessagesBar"] {
 
 div[class*="actionBar"] div[class*="button"],
 div[class*="buttons"] div[class*="wrapper"],
-div[class*="hoverButtonGroup"] {
+div[class*="hoverButtonGroup"],
+div[class*="actionButton"] {
     background: #322b79;
 }
 
