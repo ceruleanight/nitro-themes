@@ -65,8 +65,8 @@ div[class*="emptyChannelIcon"] {
 	background-color: #28245c;
 }
 
-div[class*="wrapper"]:has(button) {
-	background-color: #18153d;
+div[class*="wrapper"]:has(div[class*="text"]) {
+    background-color: #18153d;
 }
 
 div[class*="buttonContainer"] button[class*="lookFilled"],
