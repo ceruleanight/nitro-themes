@@ -65,7 +65,7 @@ div[class*="emptyChannelIcon"] {
 	background-color: #28245c;
 }
 
-div[class*="wrapper"]:has(div[class*="text"]) {
+div[class*="wrapper"]:has(div[class*="text"] h3) {
     background-color: #18153d;
 }
 
