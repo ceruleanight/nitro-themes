@@ -38,62 +38,66 @@ form[class*="form"]::before {
 }
 
 div[class*="auto"]::-webkit-scrollbar-track {
-	background-size:200vh;
-	background-image:linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background); 
+	background-size: 200vh;
+	background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background); 
 }
 
 div[class*="auto"]::-webkit-scrollbar-thumb,
 div[class*="thin"]::-webkit-scrollbar-thumb {
-	background-size:200vh;
-	background-image:linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
+	background-size: 200vh;
+	background-image: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
 }
 
 /* .withBackgroundOverride_b6a351 {
-	background:var(--bg-overlay-app-frame,var(--background-tertiary));
+	background: var(--bg-overlay-app-frame,var(--background-tertiary));
 } */
 
 /* .withBackgroundOverride_b6a351.typeWindows__5fa63 {
-	margin-top:0;
-	padding-top:4px;
+	margin-top: 0;
+	padding-top: 4px;
 } */
 
 /* .divider_b9338f {
-	border-top:thin solid rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+	border-top: thin solid rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
 } */
 
-/* .replyBar_b64d74,
-.threadSuggestionBar_b633f7 {
-	background:var(--bg-overlay-1,var(--background-secondary));
-} */
+div[class*="attachedBars"] {
+	background: var(--bg-overlay-1,var(--background-secondary));
+}
+
+div[class*="replyBar"],
+div[class*="threadSuggestionBar"] {
+	background: var(--bg-overlay-1,var(--background-secondary));
+}
 
 div[class*="children"]:after {
-	content:normal;
+	content: normal;
 }
 
 div[class*="isUnread"] {
-	border-color:var(--divider-color);
+	border-color: var(--divider-color);
 }
 
 /* force the custom theme on the dark theme since it's available for everyone */
 .theme-dark {
-	--bg-overlay-color:0 0 0;
-	--bg-overlay-color-inverse:255 255 255;
-	--bg-overlay-opacity-1:0.85;
-	--bg-overlay-opacity-2:0.8;
-	--bg-overlay-opacity-3:0.7;
-	--bg-overlay-opacity-4:0.5;
-	--bg-overlay-opacity-5:0.4;
-	--bg-overlay-opacity-6:0.1;
-	--bg-overlay-opacity-hover:0.5;
-	--bg-overlay-opacity-hover-inverse:0.08;
-	--bg-overlay-opacity-active:0.45;
-	--bg-overlay-opacity-active-inverse:0.1;
-	--bg-overlay-opacity-selected:0.4;
-	--bg-overlay-opacity-selected-inverse:0.15;
-	--bg-overlay-opacity-chat:0.8;
-	--bg-overlay-opacity-home:0.85;
-	--bg-overlay-opacity-home-card:0.8;
-	--bg-overlay-opacity-app-frame:var(--bg-overlay-opacity-4);
+	--bg-overlay-color: 0 0 0;
+	--bg-overlay-color-inverse: 255 255 255;
+	--bg-overlay-opacity-1: 0.85;
+	--bg-overlay-opacity-2: 0.8;
+	--bg-overlay-opacity-3: 0.7;
+	--bg-overlay-opacity-4: 0.5;
+	--bg-overlay-opacity-5: 0.4;
+	--bg-overlay-opacity-6: 0.1;
+	--bg-overlay-opacity-hover: 0.5;
+	--bg-overlay-opacity-hover-inverse: 0.08;
+	--bg-overlay-opacity-active: 0.45;
+	--bg-overlay-opacity-active-inverse: 0.1;
+	--bg-overlay-opacity-selected: 0.4;
+	--bg-overlay-opacity-selected-inverse: 0.15;
+	--bg-overlay-opacity-chat: 0.8;
+	--bg-overlay-opacity-home: 0.85;
+	--bg-overlay-opacity-home-card: 0.8;
+	--bg-overlay-opacity-app-frame: var(--bg-overlay-opacity-4);
 	--__spoiler-background-color--hidden: var(--primary-630);
 	--__spoiler-background-color--hidden--hover: hsl(var(--primary-630-hsl) / 0.8);
 	--__spoiler-background-color--hidden: var(--primary-700);
