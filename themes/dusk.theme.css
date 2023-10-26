@@ -1,13 +1,3 @@
-/*
-------------------------------
-Dusk Theme
-
-Version: 1.0
-Published: 10/25/23
-Updated: n/a
-------------------------------
-*/
-
 .theme-dark {
 	--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-dusk-1) 12.84%, var(--bg-gradient-dusk-2) 85.99%);
 }

@@ -6,11 +6,6 @@ Force Custom Themes on Dark Theme
 Info: this will force any of the $10 nitro themes when you have the dark theme selected
 Note: anything commented out was CSS I found but didn't notice it making a difference
 
-------------------------------
-Version: 1.0.1
-Published: 10/25/23
-Updated: 10/25/23
-------------------------------
 */
 
 div[class*="wrapper"]:not(:hover):not(.selected_f5ec8e) div[class*="childWrapper"] {

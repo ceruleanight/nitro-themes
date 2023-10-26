@@ -1,13 +1,3 @@
-/*
-------------------------------
-Retro Storm Theme
-
-Version: 1.0
-Published: 10/25/23
-Updated: n/a
-------------------------------
-*/
-
 .theme-dark {
     --custom-theme-background: linear-gradient(69.98deg, var(--bg-gradient-sepia-1) 14.14%, var(--bg-gradient-sepia-2) 60.35%);
 }
