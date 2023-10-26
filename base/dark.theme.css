@@ -7,9 +7,9 @@ Info: this will force any of the $10 nitro themes when you have the dark theme s
 Note: anything commented out was CSS I found but didn't notice it making a difference
 
 ------------------------------
-Version: 1.0
+Version: 1.0.1
 Published: 10/25/23
-Updated: n/a
+Updated: 10/25/23
 ------------------------------
 */
 
@@ -68,6 +68,10 @@ div[class*="thin"]::-webkit-scrollbar-thumb {
 
 div[class*="children"]:after {
 	content:normal;
+}
+
+div[class*="isUnread"] {
+	border-color:var(--divider-color);
 }
 
 /* force the custom theme on the dark theme since it's available for everyone */
