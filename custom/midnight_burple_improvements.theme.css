@@ -73,13 +73,3 @@ div[class*="buttonContainer"] button[class*="lookFilled"],
 button[class*="followButton"] {
 	background-color: #3e3975 !important;
 }
-
-/* hides gift button (in reply box), nitro button, store button, birthday tab (when present), and something else I don't remember */
-
-button:has(path[d*="M16.886 7.999H20C21.104 7.999"]),
-li[class*="channel"]:has(a[href="/shop"]),
-li[class*="channel"]:has(a[href="/store"]),
-li[class*="channel"]:has(svg[class*="activitiesBirthdayIcon"]),
-li[class*="channel"]:has(path[d*="M2.98966977,9.35789159 C2.98966977,9.77582472"]) {
-	display: none;
-}
