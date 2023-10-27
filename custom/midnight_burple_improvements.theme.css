@@ -65,11 +65,13 @@ div[class*="emptyChannelIcon"] {
 	background-color: #28245c;
 }
 
-div[class*="wrapper"]:has(div[class*="text"] h3) {
+div[class*="wrapper"]:has(div[class*="text"] h3),
+div[class*="chatHeaderBar_"] {
     background-color: #18153d;
 }
 
 div[class*="buttonContainer"] button[class*="lookFilled"],
-button[class*="followButton"] {
+button[class*="followButton"],
+button[class*="chatHeaderBarButton"] {
 	background-color: #3e3975 !important;
 }
