@@ -77,6 +77,14 @@ div[class*="circleIconButton"]:not(div[class*="selected"]) {
 	background: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
 }
 
+div[class*="container"]:has(button) {
+	background: var(--bg-overlay-1,var(--background-secondary-alt));
+}
+
+button[class*="button__"][class*="buttonColor"] {
+	background: var(--bg-overlay-4,var(--background-primary));
+}
+
 /* force the custom theme on the dark theme since it's available for everyone */
 .theme-dark {
 	--bg-overlay-color: 0 0 0;

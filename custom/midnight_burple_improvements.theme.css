@@ -40,7 +40,6 @@ div[class*="newMessagesBar"] {
 div[class*="actionBar"] div[class*="button"],
 div[class*="buttons"] div[class*="wrapper"],
 div[class*="hoverButtonGroup"],
-div[class*="actionButton"],
 div[class*="topPill"] div[class*="selected"] {
 	background: #322b79 !important;
 }
