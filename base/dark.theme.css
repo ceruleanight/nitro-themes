@@ -73,6 +73,10 @@ div[class*="isUnread"] {
 	border-color: var(--divider-color);
 }
 
+div[class*="circleIconButton"]:not(div[class*="selected"]) {
+	background: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+}
+
 /* force the custom theme on the dark theme since it's available for everyone */
 .theme-dark {
 	--bg-overlay-color: 0 0 0;
