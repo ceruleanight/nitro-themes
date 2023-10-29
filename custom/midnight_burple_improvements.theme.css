@@ -44,7 +44,7 @@ div[class*="topPill"] div[class*="selected"] {
 	background: #322b79 !important;
 }
 
-div[class*="attachment"] {
+div[class*="attachment_"] {
 	background: #211d5254 !important;
 }
 
