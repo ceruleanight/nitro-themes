@@ -4,7 +4,9 @@ article {
 	background: #00000038 !important;
 }
 
-code {
+code,
+div[class*="textContainer"],
+div[class*="text-sm-normal"][class*="footer"] {
 	background: #0a091b !important;
 }
 
@@ -40,7 +42,8 @@ div[class*="newMessagesBar"] {
 div[class*="actionBar"] div[class*="button"],
 div[class*="buttons"] div[class*="wrapper"],
 div[class*="hoverButtonGroup"],
-div[class*="topPill"] div[class*="selected"] {
+div[class*="topPill"] div[class*="selected"],
+div[class*="actionButton"]:has(svg[class*="icon"]) {
 	background: #322b79 !important;
 }
 
