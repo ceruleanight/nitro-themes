@@ -5,7 +5,7 @@ article {
 }
 
 code,
-div[class*="textContainer"],
+div[class*="textContainer"]:has(pre),
 div[class*="text-sm-normal"][class*="footer"] {
 	background: #0a091b !important;
 }
