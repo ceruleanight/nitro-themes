@@ -1,6 +1,9 @@
 /* hides gift button (in reply box), nitro button, store button, birthday tab (when present) */
 
+/* old gift button */
 button:has(path[d*="M16.886 7.999H20C21.104 7.999"]),
+/* new gift button */
+button:has(path[d="M4 6a4 4 0 0 1 4-4h.09c1.8 0 3.39 1.18 3.91 2.9A4.09 4.09 0 0 1 15.91 2H16a4 4 0 0 1 3.46 6H20a2 2 0 0 1 2 2v1.5a.5.5 0 0 1-.5.5h-19a.5.5 0 0 1-.5-.5V10c0-1.1.9-2 2-2h.54A3.98 3.98 0 0 1 4 6Zm12 2a2 2 0 1 0 0-4h-.09c-.96 0-1.8.65-2.02 1.58L13.29 8H16Zm-5.89-2.42.6 2.42H8a2 2 0 1 1 0-4h.09c.96 0 1.8.65 2.02 1.58Z"]),
 li[class*="channel"]:has(a[href="/shop"]),
 li[class*="channel"]:has(a[href="/store"]),
 li[class*="channel"]:has(svg[class*="activitiesBirthdayIcon"]) {
