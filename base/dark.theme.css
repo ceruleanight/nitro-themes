@@ -28,7 +28,8 @@ div[class*="folder"]:has(div[class*="folderIcon"]) {
 	content: normal;
 } */
 
-form[class*="form"]::before {
+form[class*="form"]::before,
+form[class*="form"]:after {
 	content: normal;
 }
 
