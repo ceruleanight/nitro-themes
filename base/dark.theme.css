@@ -82,6 +82,10 @@ div[class*="container"]:has(div[class*="connection"]) {
 	background: var(--bg-overlay-1, var(--background-secondary-alt));
 }
 
+section[class*="section"] {
+    background: unset;
+}
+
 button[class*="button__"][class*="buttonColor"] {
 	background: var(--bg-overlay-4, var(--background-primary));
 }
