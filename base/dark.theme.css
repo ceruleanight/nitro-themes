@@ -83,7 +83,7 @@ div[class*="container"]:has(div[class*="connection"]) {
 }
 
 section[class*="section"] {
-    background: unset;
+    background: unset !important;
 }
 
 button[class*="button__"][class*="buttonColor"] {
