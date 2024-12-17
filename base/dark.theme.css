@@ -22,6 +22,7 @@ span[class*="expandedFolder"] {
 
 div[class*="folder"]:has(div[class*="folderIcon"]) {
 	background: var(--bg-overlay-6, var(--background-secondary));
+	border-radius: 15px;
 }
 
 /* .children__32014::after {
