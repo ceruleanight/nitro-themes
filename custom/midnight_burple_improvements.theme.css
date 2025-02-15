@@ -1,5 +1,3 @@
-/* my custom addons that covers things discord was too lazy to theme */
-
 article {
 	background: #00000038 !important;
 }
@@ -47,7 +45,7 @@ div[class*="actionButton"]:has(svg[class*="icon"]) {
 	background: #322b79 !important;
 }
 
-div[class*="attachment_"] {
+div[class*="nonVisualMediaItemContainer"] {
 	background: #211d5254 !important;
 }
 
@@ -69,11 +67,19 @@ div[class*="emptyChannelIcon"] {
 
 div[class*="wrapper"]:has(div[class*="text"] h3),
 div[class*="chatHeaderBar_"] {
-    background-color: #18153d;
+	background-color: #18153d;
 }
 
 div[class*="buttonContainer"] button[class*="lookFilled"],
 button[class*="followButton"],
 button[class*="chatHeaderBarButton"] {
 	background-color: #3e3975 !important;
+}
+
+div[class*="interactiveSelected"] {
+	background-color: #201d4d;
+}
+
+div[class*="interactive"]:hover {
+	background-color: #1c1a44;
 }

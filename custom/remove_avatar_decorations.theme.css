@@ -1,6 +1,6 @@
-/* removes all avatar decorations */
+/* removes all avatar decorations & profile effects */
 
-img[class*="avatarDecoration"],
-svg[class*="avatarDecoration"] {
-    display: none;
+[class^='avatarDecoration_'],
+[class^='profileEffects_'] {
+    display: none !important;
 }
